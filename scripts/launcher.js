@@ -561,7 +561,7 @@ define(function (require) {
 
 			function getSSUrl(token, sessionId, nodeName, stateInfoId) {
 
-			    var url = "http://localhost:8080/overlay.svc/GetSessionNodeState ";
+			    var url = "http://10.20.0.65:8081/overlay.svc/GetSessionNodeState ";
 			    url = url + "?cs=" + token;
 			    url = url + "&seid=" + sessionId;
 			    url = url + "&n=" + nodeName;
