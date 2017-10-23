@@ -76,7 +76,7 @@ var filesToCache = [
 	'/Overlay/mapview_js/graphcreator.js',
 	'/Overlay/mapview_js/jquery-3.1.0.js',
 	'/Overlay/mapview_js/lasso.js',
-	'/mapview_js/lasso.min.js',
+	'/Overlay/mapview_js/lasso.min.js',
 	'/Overlay/mapview_js/mapviewclass.js',
 	'/Overlay/mapview_js/queue.v1.js',
 	'/Overlay/ribbon/css/docs.css',
@@ -170,7 +170,7 @@ self.addEventListener('activate', function(e) {
 
 self.addEventListener('fetch', function(e) {
   console.log('[Service Worker] Fetch', e.request.url);
-  var dataUrl = 'http://10.20.0.65:8081';
+  var dataUrl = 'http://svj94.github.io/Overlay/';
   if (e.request.url.indexOf(dataUrl) > -1) {
 
     e.respondWith(
