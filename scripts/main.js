@@ -7,7 +7,7 @@ requirejs(["utility/pace"], function(pace) {
 	
 		$(document).ready(function(){
 			$.ajax({
-					url: "http://10.20.0.65:8081/overlay.svc/Handshake",
+					url: "/json/handshake.json", //"http://10.20.0.65:8081/overlay.svc/Handshake",
 					type: 'GET',
 					contentType: "application/json; charset=utf-8",
 					dataType: "json",
