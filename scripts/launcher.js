@@ -18,7 +18,7 @@ define(function (require) {
 				
 		//get all the CIS from the CIS csv file.
 		$.ajax({
-				url: "webcis/cis.csv",
+				url: "webcis/CIS.csv",
 				type: 'GET',
 				contentType: "text/csv; charset=utf-8",
 				dataType: "text",
