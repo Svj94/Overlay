@@ -136,7 +136,7 @@ var filesToCache = [
 	'/Overlay/scripts/lib/u-ribbon.html',
 	'/Overlay/scripts/lib/webcomponents.js',
 	'/Overlay/scripts/utility/pace.js',
-	'/Overlay/webcis/cis.csv',
+	'/Overlay/webcis/Cis.csv',
 	'/Overlay/webcis/BinaryMappings.csv',
 	'/Overlay/webcis/EUMainDashboardCISController.xml'
 ];
