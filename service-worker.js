@@ -71,7 +71,7 @@ var filesToCache = [
 	'/Overlay/images/icons/trash-icon.png',
 	'/Overlay/images/icons/upload-icon.png',
 	'/Overlay/mapview_js/d3.legend.js',
-	'/Overlay/Overlay/mapview_js/d3.v3.js',
+	'/Overlay/mapview_js/d3.v3.js',
 	'/Overlay/mapview_js/FileSaver.min.js',
 	'/Overlay/mapview_js/graphcreator.js',
 	'/Overlay/mapview_js/jquery-3.1.0.js',
