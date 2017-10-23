@@ -5,13 +5,13 @@ function drawLayout(container, layoutFile){
         $("<link/>", {
         rel: "stylesheet",
         type: "text/css",
-        href: "/css/style.css"
+        href: "css/style.css"
     }).appendTo("head");
 
     $("<link/>", {
         rel: "stylesheet",
         type: "text/css",
-        href: "/dependencies/bootstrap/dist/css/bootstrap.css"
+        href: "dependencies/bootstrap/dist/css/bootstrap.css"
     }).appendTo("head");
 	var regions = null;
 	var layoutHTML = '';
