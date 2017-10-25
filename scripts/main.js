@@ -4,22 +4,6 @@ requirejs(["utility/pace"], function(pace) {
     //util's dependencies have loaded, and the util argument will hold
     //the module value for "utility/pace".
 
-if ('serviceWorker' in navigator && 'PushManager' in window) {
-  console.log('Service Worker and Push is supported');
-
-  navigator.serviceWorker.register('service-worker.js')
-  .then(function(swReg) {
-    console.log('Service Worker is registered', swReg);
-
-    swRegistration = swReg;
-  })
-  .catch(function(error) {
-    console.error('Service Worker Error', error);
-  });
-} else {
-  console.warn('Push messaging is not supported');
-  pushButton.textContent = 'Push Not Supported';
-}
 		$(document).ready(function(){
 			$.ajax({
 					url: "/Overlay/json/handshake.json", //"http://10.20.0.65:8081/overlay.svc/Handshake",
