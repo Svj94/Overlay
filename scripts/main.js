@@ -4,6 +4,14 @@ requirejs(["utility/pace"], function(pace) {
     //util's dependencies have loaded, and the util argument will hold
     //the module value for "utility/pace".
 
+	Notification.requestPermission(function(status) {
+        console.log('Notification permission status:', status);
+        });	
+	
+	
+	
+	
+	
 		$(document).ready(function(){
 			$.ajax({
 					url: "/Overlay/json/handshake.json", //"http://10.20.0.65:8081/overlay.svc/Handshake",
