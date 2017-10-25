@@ -166,6 +166,29 @@ self.addEventListener('activate', function(e) {
   return self.clients.claim();
 });
 
+//For notifications which are dismissed
+self.addEventListener('notificationclose', function(e) {
+  var notification = e.notification;
+  var primaryKey = notification.data.primaryKey;
+
+  console.log('Closed notification: ' + primaryKey);
+});
+
+//For notifications which are clicked
+self.addEventListener('notificationclick', function(e) {
+  var notification = e.notification;
+  var primaryKey = notification.data.primaryKey;
+  var action = e.action;
+
+  if (action === 'close') {
+    notification.close();
+  } else {
+    clients.openWindow('http://www.example.com');
+    notification.close();
+  }
+});
+
+
 self.addEventListener('fetch', function(e) {
   console.log('[Service Worker] Fetch', e.request.url);
   var dataUrl = 'http://10.20.0.65:8081';
