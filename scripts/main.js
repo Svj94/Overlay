@@ -1,12 +1,17 @@
+
+
+
+Notification.requestPermission(function(status) {
+        console.log('Notification permission status:', status);
+        });
+
 requirejs(["utility/pace"], function(pace) {
     //This function is called when scripts/helper/util.js is loaded.
     //If util.js calls define(), then this function is not fired until
     //util's dependencies have loaded, and the util argument will hold
     //the module value for "utility/pace".
 
-	Notification.requestPermission(function(status) {
-        console.log('Notification permission status:', status);
-        });	
+		
 	
 	function displayNotification() {
 	  if (Notification.permission == 'granted') {
