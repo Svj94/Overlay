@@ -1,6 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="">
     <head>
+    	
+	
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Overlay</title>
@@ -13,6 +15,23 @@
 	<script src="/Overlay/scripts/app.js" async></script>
 	<script data-main="scripts/main" src="/Overlay/scripts/require.js"></script>
   	<link href="/Overlay/css/themes/pace_loading_bar.css" rel="stylesheet" />
+	    
+	 
+	  <link rel="manifest" href="/manifest.json">
+	  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+	  <script>
+	    var OneSignal = window.OneSignal || [];
+	    OneSignal.push(["init", {
+	      appId: "55e8ecde-3140-4853-b2de-9ca785e9cf03",
+	      autoRegister: false,
+	      notifyButton: {
+		enable: true /* Set to false to hide */
+	      }
+	    }]);
+	  </script>   
+	    
+	    
+	   
 	</head>
     <body>
     </body> 	
