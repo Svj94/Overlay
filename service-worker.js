@@ -10,7 +10,6 @@ var filesToCache = [
 	'/Overlay/bosonic/dist/bosonic-runtime.js',
 	'/Overlay/bosonic/dist/bosonic-runtime.min.js',
 	'/Overlay/bosonic/lib/CustomEvent.js',
-	'/Overlay/bosonic/lib/document-register-element',
 	'/Overlay/bosonic/lib/DOMTokenList.js',
 	'/Overlay/bosonic/lib/importNode.js',
 	'/Overlay/bosonic/lib/pep-0.4.1-pre.js',
