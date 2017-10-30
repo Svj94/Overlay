@@ -2,7 +2,7 @@ $(document).ready(function(){
 	
 	if ('serviceWorker' in navigator) {
 		navigator.serviceWorker
-             .register('./Overlay/service-worker.js')
+             .register('./service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
 	  /* Access all files under app 
 	  .then(function(registration) {
