@@ -32,4 +32,6 @@
   "display": "fullscreen",
   "background_color": "#3E4EB8",
   "theme_color": "#2F3BA2"
+  "gcm_sender_id": "482941778795",
+  "DO_NOT_CHANGE_GCM_SENDER_ID": "Do not change the GCM Sender ID"
 }
