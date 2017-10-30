@@ -170,7 +170,7 @@ self.addEventListener('activate', function(e) {
 
 self.addEventListener('fetch', function(e) {
   console.log('[Service Worker] Fetch', e.request.url);
-  var dataUrl = 'http://localhost:8080';
+  var dataUrl = 'http://10.20.0.65:8081';
   if (e.request.url.indexOf(dataUrl) > -1) {
 
     e.respondWith(
