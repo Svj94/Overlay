@@ -129,15 +129,13 @@ var filesToCache = [
 	'/Overlay/scripts/lib/b-selectable.html',
 	'/Overlay/scripts/lib/b-tabs.html',
 	'/Overlay/scripts/lib/b-tree.html',
-	'/Overlay/scripts/lib/bosonic-runtime.js',
-	'/Overlay/scripts/lib/bosonic-runtimeOLD.js',
 	'/Overlay/scripts/lib/hello-world.html',
 	'/Overlay/scripts/lib/u-components.html',
 	'/Overlay/scripts/lib/u-mapview.html',
 	'/Overlay/scripts/lib/u-ribbon.html',
 	'/Overlay/scripts/lib/webcomponents.js',
 	'/Overlay/scripts/utility/pace.js',
-	'/Overlay/webcis/cis.csv',
+	'/Overlay/webcis/CIS.csv',
 	'/Overlay/webcis/BinaryMappings.csv',
 	'/Overlay/webcis/EUMainDashboardCISController.xml'
 ];
