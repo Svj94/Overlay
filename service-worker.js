@@ -35,7 +35,7 @@ var filesToCache = [
 	'/Overlay/css/themes/pace_center_radar.css',
 	'/Overlay/css/themes/pace_loading_bar.css',
 	'/Overlay/css/themes/site.css',
-	'/Overlay/dependencies/animate.css',
+	'/Overlay/dependencies/animate.css/animate.css',
 	'/Overlay/dependencies/bootstrap/dist/css/bootstrap.css',
 	'/Overlay/dependencies/bootstrap/dist/js/bootstrap.js',
 	'/Overlay/dependencies/fontawesome/css/font-awesome.css',
